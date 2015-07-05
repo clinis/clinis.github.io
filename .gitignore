@@ -1,0 +1,14 @@
+.DS_Store
+
+_site
+.jekyll
+.jekyll-metadata
+.sass-cache
+
+.bundle
+
+Gemfile
+Gemfile.lock
+
+node_modules
+package.json
