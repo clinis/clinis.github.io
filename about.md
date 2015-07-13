@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+In case you didn't notice, I'm clinis. This is my website.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I'm a person.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[mail *[at]* clinis *[dot]* xyz](mailto:mail@clinis.xyz)
