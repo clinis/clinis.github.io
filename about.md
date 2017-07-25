@@ -12,4 +12,4 @@ I'm a person.
 
 ### Contact me
 
-[mail *[at]* clinis *[dot]* xyz](mailto:mail@clinis.xyz)
+[dinis.areias *[at]* gmail *[dot]* com](mailto:dinis.areias@gmail.com)
