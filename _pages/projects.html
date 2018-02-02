@@ -1,0 +1,27 @@
+---
+layout: page
+title: Projects
+permalink: /projects/
+---
+
+{% assign projects = site.projects | sort: "dateStart" | reverse%}
+{% for project in projects %}
+<div class="block">
+  {% if project.image %}
+    <img src="{{ project.image }}" alt="{{ project.title }} image"/>
+  {% endif %}
+  <div>
+    <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+    {{ project.excerpt }}
+    <p>{{ project.dateStart | date: "%B %Y"}}</p>
+    {% if project.labels %}
+      <ul class="list-inline">
+        {% for label in project.labels %}
+          <li class="label"> {{ label }} </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+    <a href="{{ project.url }}" class="read-more">See  Project</a>
+  </div>
+</div>
+{% endfor %}

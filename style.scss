@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
   color: $darkerGray;
   font-weight: bold;
 
-  line-height: 1.7;
+  line-height: 1.4;
   margin: 1em 0 15px;
   padding: 0;
 
@@ -198,6 +198,7 @@ img {
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
+  line-height: 1.7
 }
 
 .site-description {
@@ -292,4 +293,63 @@ footer {
 
 .titleContainer h1 {
   margin-bottom: 5px;
+}
+
+
+.block {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.block img {
+  width: 250px;
+  margin: 0 1rem 0 0;
+}
+
+.block h2 {
+  margin: 0 0 15px;
+}
+
+.block h2 > a {
+  color: black;
+}
+
+.block h2 > a:hover, h2 > a:active {
+  color: #4183C4;
+}
+
+.block .read-more {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 425px) {
+  .block {
+    flex-direction: column;
+  }
+
+  .block img {
+    width: 100%;
+    margin: 0 0 1rem   0;
+  }
+}
+
+.block ul {
+  margin-top: -.5rem;
+  padding-left: 0px;
+}
+
+.label {
+  display: inline;
+  font-size: 65%;
+  color: #666;
+  white-space: nowrap;
+  border: 1px solid #666;
+  border-radius: .25em;
+  margin-right: 5px;
+  padding: .3em;
 }

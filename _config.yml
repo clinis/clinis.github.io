@@ -9,7 +9,7 @@ name: clinis
 description: clinis by clinis to clinis
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://avatars1.githubusercontent.com/u/11950464?v=3&s=460
+avatar: https://avatars1.githubusercontent.com/u/11950464?v=3&s=140
 
 #
 # Flags below are optional
@@ -99,3 +99,8 @@ exclude:
 # Create pages inside _pages directory instead of in the root folder
 include:
   - _pages
+
+# Collections
+collections:
+  projects:
+    output: true

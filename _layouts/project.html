@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<article class="project">
+
+  <h1>{{ page.title }}</h1>
+
+  <p style="color:grey;"><i>{{ page.dateStart | date: "%B %Y" }} - {{ page.dateEnd | date: "%B %Y" }}</i></p>
+
+  {% if page.image %}
+    <img src={{ page.image }} alt="{{ project.title }} image"/>
+  {% endif %}
+
+  <p>{{ page.content }}</p>
+
+  <p><i>{{ page.labels }}</i></p>
+
+</article>
