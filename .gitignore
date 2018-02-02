@@ -7,8 +7,6 @@ _site
 
 .bundle
 
-Gemfile
 Gemfile.lock
 
 node_modules
-package.json
