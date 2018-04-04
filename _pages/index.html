@@ -30,7 +30,7 @@ permalink: /
 </head>
 <body>
 	<main>
-		<div class="intro">Hello, I'm Dinis!</div>
+		<div class="intro">Hello, I'm <span id="clinis" onmouseover="changeToD()" onmouseout="changeToCl()" style="cursor: pointer;"><span id="cl">cl</span>inis</span>!</div>
 		<div class="tagline">Software Developer | Electrical and Computers Engineering - Telecommunications</div>
 		<!-- Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands -->
 		<div class="icons-social">
@@ -40,5 +40,13 @@ permalink: /
 			<a target="_blank" href="https://www.linkedin.com/in/dinisareias"><i class="fab fa-linkedin"></i></a>
     </div>
 	</main>
+  <script type="text/javascript">
+    function changeToD() {
+      document.getElementById('cl').innerHTML = 'd';
+    }
+    function changeToCl(){
+      document.getElementById('cl').innerHTML = 'cl';
+    }
+  </script>
 </body>
 </html>
