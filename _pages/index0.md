@@ -1,7 +1,7 @@
 ---
 layout: page
 title: clinis
-permalink: /
+permalink: /0
 ---
 
 In case you didn't notice, I'm clinis. This is my website.
